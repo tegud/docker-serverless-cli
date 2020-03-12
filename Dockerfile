@@ -1,6 +1,6 @@
-FROM node:12.13.0-slim
+FROM node:12.16.1-slim
 
-RUN npm i -g serverless@1.58.0 && \
+RUN npm i -g serverless@1.66.0 && \
   sls plugin install -n serverless-prune-plugin
 
 ENTRYPOINT ["serverless"]
