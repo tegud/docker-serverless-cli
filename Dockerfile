@@ -1,5 +1,5 @@
-FROM node:12.16.1-slim
+FROM node:14.18.1-slim
 
-RUN npm i -g serverless@1.66.0
+RUN npm i -g serverless@2.63.0
 
 ENTRYPOINT ["serverless"]
